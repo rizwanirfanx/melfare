@@ -1,5 +1,5 @@
 @extends('layout')
-@section('title') Gainloe @endsection
+@section('title') MILFAre @endsection
 @section('keywords') Home,About,Contact,Car @endsection
 @section('description') Write some descripton about the webpage @endsection
 @section('content')
@@ -9,7 +9,6 @@
       color: orange;
     }
     </style> 
-    
 <div id="slide_show_in_desktop_mode">
   @include('components.desktopslideshow')
 </div>
@@ -30,7 +29,7 @@
         <img src="{{asset('Img/About.png')}}" alt="" class="img-fluid" >
         </div>
         <div  align="center" class="col-md-8 wow animated flash slow">
-            <h1 class="black-text" style="font-weight:bold;">Values of  Gainaloe</h1>
+            <h1 class="black-text" style="font-weight:bold;">Values of  MILF Lovers</h1>
             <div class="col-md-3" style=" border-bottom: 2px solid #003399;"></div>
             <div class="row my-5" style="font-size:30px; font-family: 'Balsamiq Sans', cursive;">
               <div class="col-md-6" >

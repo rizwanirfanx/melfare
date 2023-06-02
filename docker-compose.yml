@@ -1,0 +1,49 @@
+version: "3.7"
+services:
+  app:
+    build:
+      args:
+        user: melfare
+        uid: 1000
+      context: ./
+      dockerfile: Dockerfile
+    image: melfare_image
+    container_name: melfare-app-3
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+      - ./:/var/www
+    networks:
+      - travellist
+
+  db:
+    image: mysql:8.0
+    container_name: travellist-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: gainaloe
+      MYSQL_ROOT_PASSWORD: Pakistan@01
+      MYSQL_PASSWORD: Pakistan@01
+      MYSQL_USER: melfare
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./docker-compose/mysql:/docker-entrypoint-initdb.d
+    networks:
+      - travellist
+
+  nginx:
+    image: nginx:alpine
+    container_name: melfare-nginx-3
+    restart: unless-stopped
+    ports:
+      - 8001:80
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d/
+    networks:
+      - travellist
+
+networks:
+  travellist:
+    driver: bridge

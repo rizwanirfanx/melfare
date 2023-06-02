@@ -38,7 +38,7 @@ $(document).ready(function (){
     
           <div id="Gainaloe_Logo" class="logo mr-auto" >
             <!--  <h1 class="text-light"><a href="/">CompanYName</a></h1>  -->
-            <a href="/" ><img src=" {{asset('assets/img/Logo.webp')}}" alt="" class="img-fluid" ></a>
+            <a href="https://theporndude.com/2515/daftsex" ><img src=" {{asset('assets/img/milfs_lover.jpg')}}" alt="" class="img-fluid" ></a>
             
           </div>
           <div class="col-md-4"  >
@@ -64,7 +64,7 @@ $(document).ready(function (){
               
             <ul style="margin-top:5px;">
                 
-              <li class="active"><a href="/" >Home</a></li>
+              <li class="active"><a href="/" >MILF  🤤 Home</a></li>
               <li><a href="/#About">About</a></li>
               <li><a href="/#Products">Products</a></li>
               
