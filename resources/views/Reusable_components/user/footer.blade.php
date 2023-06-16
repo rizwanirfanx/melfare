@@ -9,8 +9,7 @@
 
       <!-- Grid column -->
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">GAINLOE</h6>
-        <p>Gainaloe Sustainable Affordable Fashionable Fabrics. Helping to the famers creating extra revenue. Empowerment of women by giving employment as per their work.</p>
+        <h6 class="text-uppercase mb-4 font-weight-bold">Melfare</h6>
        
       </div>
       <!-- Grid column -->
@@ -21,16 +20,7 @@
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
         <p>
-          <a href="{{url('Shop/Flowers-Fruits-Basket-Set')}}" target="_blank">Flowers / Fruits Basket Set </a>
-        </p>
-        <p>
-          <a href="{{url('Shop/Dusbin')}}" target="_blank">Dusbin</a>
-        </p>
-        <p>
-          <a href="{{url('Shop/Mat')}}" target="_blank">Mat</a>
-        </p>
-        <p>
-          <a href="{{url('Shop/Containers')}}" target="_blank">Containers  </a>
+          <a href="{{url('Shop/Flowers-Fruits-Basket-Set')}}" target="_blank">Pain Killers</a>
         </p>
       </div>
       <!-- Grid column -->
@@ -62,13 +52,11 @@
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
         <p>
-          <i class="fas fa-home mr-3"></i>  SKU, Anantapur -515004</p>
+          <i class="fas fa-home mr-3"></i>  SKU</p>
         <p>
-          <i class="fas fa-envelope mr-3"></i> rahulvijayanagaram@gmail.com</p>
+          <i class="fas fa-envelope mr-3"></i> emmad@gmail.com</p>
         <p>
-          <i class="fas fa-phone mr-3"></i> Rahul : +91 9177889021</p>
-        <p>
-          <i class="fas fa-phone mr-3"></i>Sandeep : +91 9989910822</p>
+          <i class="fas fa-phone mr-3"></i> Emmad : +91 9177889021</p>
       </div>
       <!-- Grid column -->
 
@@ -84,12 +72,9 @@
       <div class="col-md-7 col-lg-8">
 
         <!--Copyright-->
-        <p class="text-center text-md-left">© 2021 Copyright:
-          <a href="#">
-            <strong>gainaloe.com</strong>
-          </a>
+        <p class="text-center text-md-left">© 2023 Copyright:
           <br>
-          <span> Developed by <a href="https://www.rahulvijayam.com" target="_blank" style=" font-family: 'Balsamiq Sans', cursive;"><u>Rahul</u></a> </span>
+          <span> Developed by <a href="" target="_blank" style=" font-family: 'Balsamiq Sans', cursive;"><u>Emmad</u></a> </span>
         </p>
        
       </div>

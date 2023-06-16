@@ -20,9 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `gainaloe`
 --
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `users`
 --
